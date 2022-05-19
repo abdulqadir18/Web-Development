@@ -1,0 +1,18 @@
+/*******************TAG SELECTOR************/
+h1{
+  color: red;
+  font-size: 100px;
+}
+
+h1:hover{
+  color: gold;
+}
+
+/******************CLASS SELECTOR**********/
+.bacon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
