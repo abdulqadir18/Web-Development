@@ -33,3 +33,9 @@ else document.querySelector(".img2").setAttribute("src","images/dice6.png");
 if(randomVariable1===randomVariable2) document.querySelector("h1").textContent="Draw";
 else if(randomVariable1>randomVariable2) document.querySelector("h1").textContent="⛳ Player1 Won";
 else document.querySelector("h1").textContent="Player2 Won ⛳";
+
+//refresh button
+document.querySelector(".btn").addEventListener("click",function()
+{
+  location.reload();
+});
